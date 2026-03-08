@@ -42,13 +42,13 @@ The connection string in `appsettings.json` is already configured for this conta
 
 ### 2. Configure User Secrets
 
-This project requires a Postit API key stored in user secrets. Run the following command from the `server/` directory:
+This project requires a Postit API key stored in user secrets. Run the following command from the `server/server` directory:
 
 ```bash
 dotnet user-secrets set "PostitApiKey" "postit.lt-examplekey"
 ```
 
-Replace `postit.lt-examplekey` with your actual API key if you have one.
+Replace `postit.lt-examplekey` with your actual API key if needed.
 
 ### 3. Run the Backend
 
