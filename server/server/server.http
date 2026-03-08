@@ -1,0 +1,13 @@
+@server_HostAddress = http://localhost:5281
+
+POST {{server_HostAddress}}/customers/import
+
+###
+
+PUT {{server_HostAddress}}/customers/post-codes
+
+###
+
+GET {{server_HostAddress}}/customers
+
+###
